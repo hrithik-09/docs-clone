@@ -1,4 +1,4 @@
-import React, { useCallback,useState,useEffect, useRef  } from 'react';
+import React, { useCallback,useState} from 'react';
 import Quill from 'quill';
 import  Modal  from './Modal';
 import 'quill/dist/quill.snow.css';
@@ -48,28 +48,28 @@ export default function TextEditor() {
     <div>
         <ul class="nav">
     <li>
-        <a href="#">File</a>
+        <a href="/">File</a>
     </li>
     <li>
-        <a href="#">Edit</a>
+        <a href="/">Edit</a>
     </li>
     <li>
-        <a href="#">View</a>
+        <a href="/">View</a>
     </li>
     <li>
-        <a href="#">Insert</a>
+        <a href="/">Insert</a>
     </li>
     <li>
-        <a href="#">Format</a>
+        <a href="/">Format</a>
     </li>
     <li>
-        <a href="#">Tools</a>
+        <a href="/">Tools</a>
     </li>
     <li>
-        <a href="#">Extension</a>
+        <a href="/">Extension</a>
     </li>
     <li>
-        <a href="#">Help</a>
+        <a href="/">Help</a>
     </li>
     <li className='share add-docs' style={{ float: 'right',marginTop:'-2px',marginRight: '40px',border:'2px solid rgba(121, 114, 114, 0.696)',borderRadius:'40px', padding:'4px 10px'}}> {/* Add a new list item for the share button */}
           <a href="#" onClick={handleShareClick}>Share</a> 
