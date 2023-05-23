@@ -72,7 +72,7 @@ export default function TextEditor() {
         <a href="/">Help</a>
     </li>
     <li className='share add-docs' style={{ float: 'right',marginTop:'-2px',marginRight: '40px',border:'2px solid rgba(121, 114, 114, 0.696)',borderRadius:'40px', padding:'4px 10px'}}> {/* Add a new list item for the share button */}
-          <a href="#" onClick={handleShareClick}>Share</a> 
+          <button onClick={handleShareClick}>Share</button> 
     </li>
         </ul>
         <Modal open={isModalOpen} setOpen={setModalOpen} />

@@ -97,7 +97,9 @@ body {
 
   background-color: #c2e7ff;
 }
-.share a{
+.share button{
+  border: none;
+  cursor: pointer;
   background-color: #c2e7ff;
 }
 .nav .share a:hover{
