@@ -1,4 +1,4 @@
-This is a clone of google-docs application created using React
+A google docs clone created using react app
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
