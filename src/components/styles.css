@@ -1,0 +1,56 @@
+.add-input{
+    height: 49.5px;
+    width: 464px;
+    border-radius: 5px;
+    align-items: center;
+    
+}
+.access{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+.close-button-2{
+    /* display: flex; */
+    align-items: center;
+    
+    margin-top: 20px;
+    width: 104.41px;
+    color: white;
+    
+    /* justify-content: center; */
+    height: 40px;
+    background-color: rgb(26,115,232);
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.close-button-2 svg {
+    vertical-align: middle;
+    margin-right: 2px;
+  }
+.heading{
+    display: flex;
+}
+.setting{
+    /* padding: 5px; */
+    margin-left: 180px;
+    margin-right: 10px;
+    margin-top: 21px;
+}
+.setting-1{
+    /* padding: 5px; */
+    /* margin-left: 180px; */
+    margin-top: 21px;
+}
+.close-button{
+    float: right;
+    margin: 20px;
+    width: 82.41px;
+    color: white;
+    height: 40px;
+    background-color: rgb(26,115,232);
+    border: none;
+    border-radius: 20px;
+}

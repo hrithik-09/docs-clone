@@ -1,0 +1,110 @@
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+body {
+  background-color: #F3F3F3;
+  margin: 0;
+}
+
+.container .ql-editor {
+  width: 794.5px;
+  min-height: 1123.5px;
+  padding: 1in;
+  margin: 1rem;
+  /* z-index: -1; */
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, .5);
+  background-color: white;
+}
+
+.container .ql-container.ql-snow {
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+.container .ql-toolbar.ql-snow {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  margin-left:30px;
+  margin-right:30px;
+  z-index: 1;
+  background-color: #edf2fa92;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, .5);
+}
+
+@page {
+  margin: 1in;
+}
+
+@media print {
+  body {
+    background: none;
+  }
+
+  .container .ql-editor {
+    width: 6.5in;
+    height: 9in;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    align-self: flex-start;
+  }
+
+  .container .ql-toolbar.ql-snow {
+    display: none;
+  }
+}
+
+/* navbar starts */
+
+.nav {
+  list-style: none;
+  position: sticky;
+  margin-bottom: 10px;
+  float: left; 
+  width: 100%;
+  position: relative;
+  z-index: 2;
+ 
+}
+.nav li {
+  position: sticky;
+  float: left;
+  margin: 0px 2px;
+  position: relative;
+}
+.nav a {
+  position: sticky;
+  display: block;
+  padding: 2px 7px;
+  font-weight: 400;
+  color: black;
+  background-color:none;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav a:hover {
+  background-color: #80868b91;
+  border-radius: 10px;
+}
+.share{
+
+  background-color: #c2e7ff;
+}
+.share a{
+  background-color: #c2e7ff;
+}
+.nav .share a:hover{
+  background-color: #c2e7ff;
+}
+
+
+
+/* navbar ends */
+
