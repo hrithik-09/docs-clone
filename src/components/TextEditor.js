@@ -26,9 +26,9 @@ export default function TextEditor() {
     setModalOpen(true);
   };
 
-  const handleCloseModal = () => {
-    setModalOpen(false);
-  };
+  // const handleCloseModal = () => {
+  //   setModalOpen(false);
+  // };
   const wrapperRef = useCallback(wrapper => {
     if (wrapper == null)
     {
